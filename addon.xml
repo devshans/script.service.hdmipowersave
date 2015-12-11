@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="script.service.hdmipowersave" 
+		name="HDMI Powersave" 
+		version="0.1.0" 
+		provider-name="devshans">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.service" library="main.py" start="startup"/>
+	<extension point="xbmc.addon.metadata">
+		<summary>Enables HDMI on/off powersave mode.</summary>
+		<description>Automates turning off HDMI output after extended idle time.</description>
+		<platform>all</platform>
+		<minversion>1</minversion>
+	</extension>
+</addon>

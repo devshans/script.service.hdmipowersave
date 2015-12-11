@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General" >
+		<setting id="powersave_minutes" label="30000" type="slider" subsetting="true" default="5" range="1,1,30" option="int" />
+        <setting  type=bool label="30000" default="true" />
+    </category>
+    <category label="Debug" >
+		<setting id="debug" label="31000" type="bool" default="false" />
+        <setting id="uuid"  label="31001" type="text" default="" visible="false"  />
+    </category>
+</settings>
