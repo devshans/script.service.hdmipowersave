@@ -54,8 +54,8 @@ else:
 	is_idle                = False
 
 	# Debugging
-	idle_time              = 0
-	screensaver_transition = False
+	idle_time = 0
+	screensaver_active_transition = False
 	
 	# Check that Linux PATH environment variable contains necessary locations.
 	path_to_add = ""
@@ -96,12 +96,12 @@ else:
 				display_off = True
 
 			# Strictly for debugging
-			if screensaver_transition:
-				screensaver_transition = False
+			if screensaver_active_transition:
+				screensaver_active_transition = False
 				printDebug("screensaver active at idle time: %d" % idle_time)
 		else:
 			# Retain the last recorded time value when screen was active.
-			screensaver_transition = True
+			screensaver_active_transition = True
 			screensaver_start_time = time.time() 
 		
 		# Wait for [timeout] seconds. Will stop early if abort requested.
