@@ -4,7 +4,7 @@
     @author     : devshans
     @copyright  : 2015, devshans
 
-    @license    : The MIT License (MIT) - see LICENSE.TXT
+    @license    : The MIT License (MIT) - see LICENSE
     @description: Kodi/XBMC Add-on - 
 		Automates turning off HDMI output after extended idle time.
 
@@ -33,6 +33,7 @@ printNote("Addon version : " + __version__)
 printNote("Platform      : " + getPlatform())
 printNote("UUID          : " + settings['uuid'])
 
+# MS delay in between checking screensaver status.
 WAIT_MS  = 500
 
 platform = getPlatform()
