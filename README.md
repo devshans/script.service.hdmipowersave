@@ -5,7 +5,7 @@ Kodi Add-on Script - HDMI On/Off Powersave Mode
 1. Download latest release: https://github.com/devshans/script.service.hdmipowersave/releases/download/0.1.1/script.service.hdmipowersave.zip
 2. Upload to raspberry pi using FTP.
 3. Navigate to: Settings -> Addons -> Install from Zip File
-4. Select this zip file
+4. Select "script.service.hdmipowersave.zip"
 
 ## Overview
 Kodi/XBMC python add-on - Automates turning off HDMI output after user-defined extended idle time. Triggers after the default Kodi screensaver so that no other settings need to be changed and original screensaver functionality remains intact.
